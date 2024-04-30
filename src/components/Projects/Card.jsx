@@ -81,7 +81,7 @@ const Card = ({name, desc, github, image, demo, tech, flag }) => {
         <div className="flex flex-col gap-3 lg:w-[50%]">
           <h1 className="text-2xl md:text-4xl font-bold text-blue-200">{name}</h1>
           <p className="bg-[#172a45] md:text-2xl lg:text-xl lg:w-[100%] p-5">{desc}</p>
-          <div className="flex flex-row gap-2 md:text-xl text-[#64ffda]">
+          <div className="flex flex-row gap-2 flex-wrap md:text-xl text-[#64ffda]">
             {
               tech.map((ele,ind)=>(
                 <div key={ind}>{ele}</div>
