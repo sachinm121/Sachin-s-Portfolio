@@ -12,18 +12,18 @@ const Navbar = () => {
   }
   return (
     <nav className={styles.navbar}>
-        <Link to='/' className={`${styles.title} bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-transparent bg-clip-text`}>Sachin Mahor</Link>
+        <Link to='/' className={`${styles.title} bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-transparent bg-clip-text md:text-[40px]`}>Sachin Mahor</Link>
         <div className={styles.menu}>
             <img className={styles.menuBtn} src={
               menuOpen? closeIcon:
               menuIcon     
             } alt="menu-button"  onClick={handleMenu}/>
-            <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen} text-[#5cc8b4] font-bold`}>
-                <li><Link to="/about" className={styles.menuItem}>About</Link></li>
-                <li><Link to="/skills" className={styles.menuItem}>Skills</Link></li>
-                <li><Link to="/coding"className={styles.menuItem}>Coding</Link></li>
-                <li><Link to="/projects" className={styles.menuItem}>Projects</Link></li>
-                <li><Link to="/contact" className={styles.menuItem}>Contact</Link></li>
+            <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen} text-[#5cc8b4] md:font-bold`}>
+                <li><Link to="/about" className={`${styles.menuItem} text-[20px]`}>About</Link></li>
+                <li><Link to="/skills" className={`${styles.menuItem} text-[20px]`}>Skills</Link></li>
+                <li><Link to="/coding"className={`${styles.menuItem} text-[20px]`}>Coding</Link></li>
+                <li><Link to="/projects" className={`${styles.menuItem} text-[20px]`}>Projects</Link></li>
+                <li><Link to="/contact" className={`${styles.menuItem} text-[20px]`}>Contact</Link></li>
             </ul>
         </div>
     </nav>
