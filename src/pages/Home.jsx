@@ -1,53 +1,10 @@
-// import React from "react";
-// import styles from "./Home.module.css";
-// import boy1 from "../assets/hero/boy1.jpg";
-// import TextHighlight from "../components/HomeComponents/TextHighlight";
-// import TextAnimation from "../components/HomeComponents/TextAnimation";
-// import Button from "../components/HomeComponents/Button";
-
-// const Home = () => {
-//   return (
-//     <div className={styles.Home}>
-//       <div className={styles.container}>
-//         <img src={boy1} alt="" className={styles.avtar} />
-//         <div className={styles.text}>
-//           <p className="text-xl text-[#64ffda]">Hello,</p>
-//           <h1 className={styles.name}>
-//             I'm <TextHighlight text={"Sachin Mahor"} />
-//           </h1>
-//           <p className={styles.occup}>
-//             <TextAnimation />
-//           </p>
-//           <p className="mt-3 w-[90%] text-gray-400  text-[16px]">
-//             I am final year Computer Science and Engineering at NIT Jamshedpur.
-//             Primary interested in Web Development
-//           </p>
-//           <br />
-//           <p className="w-[90%] text-gray-400 text-[16px] mb-5">
-//             I am interested learning new skills and implement in real life
-//           </p>
-//             <Button
-//               active={true}
-//               linkto={
-//                 "https://drive.google.com/file/d/1ibgUf4oMbmyNcMUd2zmdNZDvwxUjsRSy/view?usp=sharinghttps://console.cloudinary.com/console/c-c4daebe7d67f2e78f4c38d10deb345/media_library/asset/3b1c568618fede4a1f68546771106f3a/manage"
-//               }
-//             >
-//               Resume
-//             </Button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Home;
-
 import React from "react";
 import styles from "./Home.module.css";
 import boy1 from "../assets/hero/boy1.jpg";
 import TextHighlight from "../components/HomeComponents/TextHighlight";
 import TextAnimation from "../components/HomeComponents/TextAnimation";
 import Button from "../components/HomeComponents/Button";
+import resume from "../assets/hero/Sachin_mahor.pdf"
 
 const Home = () => {
   return (
@@ -71,9 +28,7 @@ const Home = () => {
           </p>
           <Button
             active={true}
-            linkto={
-              "https://drive.google.com/file/d/1ibgUf4oMbmyNcMUd2zmdNZDvwxUjsRSy/view?usp=sharinghttps://console.cloudinary.com/console/c-c4daebe7d67f2e78f4c38d10deb345/media_library/asset/3b1c568618fede4a1f68546771106f3a/manage"
-            }
+            resume={resume}
           >
             Resume
           </Button>

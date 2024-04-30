@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Button.css";
 
-const Button = ({ children, active, linkto }) => {
+const Button = ({ children, active, resume }) => {
   return (
     <div>
-      <a href={`${linkto}`} download>
+      <a href={`${resume}`} target="_blank" download>
         <div
           className={`text-center text-[1em] px-6 py-3 rounded-md font-bold button2
         ${
