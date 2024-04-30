@@ -8,7 +8,7 @@ export const projectsFile1 = [
         github: "https://github.com/sachinm121/CampusVoice",
         image: CV,
         demo: "https://github.com/sachinm121/CampusVoice",
-        tech: ["React", "Node", "MongoDB", "JWT", "AntDesign", "Tailwind", "Nodemailer", "Cloudinary"],
+        tech: ["MERN", "JWT", "AntDesign", "Tailwind", "Nodemailer", "Cloudinary"],
         flag: false
     },
     {
