@@ -42,10 +42,10 @@ const Contact = () => {
               <a href="https://github.com/sachinm121" target="_blank">
                 <IoLogoGithub className="hover:text-[#03fcc6]" />
               </a>
-              <a href="https://wa.me/qr/C2KEKS2N6PM4K1">
+              <a href="https://wa.me/qr/C2KEKS2N6PM4K1" target="_blank">
                 <FaWhatsapp className="hover:text-[#03fcc6]" />
               </a>
-              <a href="https://t.me/+918791457401">
+              <a href="https://t.me/+918791457401" target="_blank">
                 <FaTelegramPlane className="hover:text-[#03fcc6]" />
               </a>
             </div>
