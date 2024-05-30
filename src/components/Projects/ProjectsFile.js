@@ -7,7 +7,7 @@ export const projectsFile1 = [
         desc: "This is MERN based app focusing on student complaint for NIT Jamshedpur, Here student can sign and login and can admit thier complaints.",
         github: "https://github.com/sachinm121/CampusVoice",
         image: CV,
-        demo: "https://github.com/sachinm121/CampusVoice",
+        demo: "https://campusvoice.vercel.app/",
         tech: ["MERN", "JWT", "AntDesign", "Tailwind", "Nodemailer", "Cloudinary"],
         flag: false
     },
