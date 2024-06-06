@@ -4,7 +4,7 @@ import CV from "../../assets/projects/CV.png"
 export const projectsFile1 = [
     {
         name: "NIT JSR Complaint App(CampusVoice)",
-        desc: "This is MERN based app focusing on student complaint for NIT Jamshedpur, Here student can sign and login and can admit thier complaints.",
+        desc: "This is MERN based app focusing on student complaint for NIT Jamshedpur, Here student can sign and login and can admit thier complaints. email: dummy@gmail.com, password: 123456",
         github: "https://github.com/sachinm121/CampusVoice",
         image: CV,
         demo: "https://campusvoice.vercel.app/",

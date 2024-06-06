@@ -17,7 +17,7 @@ const About = () => {
           <div className="pg flex gap-2 text-blue-100 md:text-[25px]">
             &#187;
             <p className="text-[16px] flex flex-row items-start md:text-[25px] lg:text-[22px]">
-              Master of Computer Applications(MCA), NIT Jamshedpur (Pursuing)
+              Master of Computer Applications(MCA), NIT Jamshedpur
             </p>
           </div>
           <div className="ug flex gap-2 text-blue-100 md:text-[25px]">
@@ -42,7 +42,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          <img className="w-[120px] md:w-[180px] lg:w-[270px] mt-5" src={Sachin} alt="Profile" />
+          <img className="w-[120px] md:w-[180px] lg:w-[270px] mt-5 rounded-md" src={Sachin} alt="Profile" />
         </div>
       </div>
     </div>
