@@ -8,7 +8,7 @@ import resume from "../assets/hero/Sachin_mahor.pdf"
 
 const Home = () => {
   return (
-    <div className={`${styles.Home} bg-gray-900`}> {/* Adding Tailwind CSS classes */}
+    <div className={`${styles.Home}`}> {/* Adding Tailwind CSS classes */}
       <div className={`${styles.container} lg:flex lg:justify-between lg:px-24 lg:flex-row-reverse px-4 py-8 sm:px-6`}> {/* Adding Tailwind CSS classes */}
         <img src={boy1} alt="" className={`${styles.avtar} md:w-[300px] md:h-[300px] lg:w-[350px] lg:h-[350px]`} />
         <div className={`${styles.text}`}>

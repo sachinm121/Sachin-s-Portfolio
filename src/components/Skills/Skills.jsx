@@ -15,6 +15,8 @@ import cplus from "../../assets/skills/cplus.png"
 import bootstrap from "../../assets/skills/bootstrap.png"
 import tailwind from "../../assets/skills/tailwind.png"
 import python from "../../assets/skills/python.png"
+import mysql from "../../assets/skills/mysql.png";
+import springBoot from "../../assets/skills/spring-boot.png";
 
 
 const Skills = () => {
@@ -41,6 +43,8 @@ const Skills = () => {
         <MotionCard image={bootstrap} />
         <MotionCard image={tailwind} />
         <MotionCard image={github} />
+        <MotionCard image={mysql} />
+        <MotionCard image={springBoot} />
       </div>
     </div>
   );

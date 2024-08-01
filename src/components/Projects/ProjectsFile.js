@@ -1,6 +1,7 @@
 import expense from '../../assets/projects/expense.png';
 import HMS from '../../assets/projects/HMS.png';
 import CV from "../../assets/projects/CV.png"
+import EMS from "../../assets/projects/EMS.png"
 export const projectsFile1 = [
     {
         name: "NIT JSR Complaint App(CampusVoice)",
@@ -12,13 +13,22 @@ export const projectsFile1 = [
         flag: false
     },
     {
+        name: "Employee Management App",
+        desc: "This is Java based App for managing employee's details. Admin can manages employee's details of the company",
+        github: "https://github.com/sachinm121/Employee-Management-App",
+        image: EMS,
+        demo: "https://github.com/sachinm121/Employee-Management-App",
+        tech: ["React", "Spring-Boot", "JPA", "MySQL", "Material UI"],
+        flag: true
+    },
+    {
         name: "Expenses Management App",
-        desc: "It is an Expense Management App. User can sign and login and then user can manage thier expenses",
+        desc: "This is an Expense Management App. User can sign and login and then user can manage thier expenses",
         github: "https://github.com/sachinm121/expense-management-system",
         image: expense,
         demo: "https://github.com/sachinm121/expense-management-system",
         tech: ["React", "Node", "Expressjs", "MongoDB", "AntDesign"],
-        flag: true
+        flag: false
     },
     {
         name: "Hospital Management System",
@@ -26,8 +36,8 @@ export const projectsFile1 = [
         github: "https://github.com/sachinm121/Hospital-Managment-System",
         image: HMS,
         demo: "https://github.com/sachinm121/Hospital-Managment-System",
-        tech: ["CoreJava", "Swing", "AWT"],
-        flag: false
+        tech: ["CoreJava", "Swing", "AWT", "MySQL"],
+        flag: true
     },  
 ]
 
